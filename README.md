@@ -2,8 +2,6 @@
 <img src="./banner.svg?v=2" width="100%" alt="Banner de Fernando Rodenas" />
 </div>
 
-# Hola, soy Fernando Rodenas 👋
-
 Estudiante de 2º de **Desarrollo de Aplicaciones Web (DAW)** en MEDAC (Málaga). Me apasiona el desarrollo backend, el diseño y optimización de bases de datos y la creación de proyectos web reales aplicados al comercio electrónico y la automatización.
 
 ---
