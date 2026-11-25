@@ -1,17 +1,5 @@
 <div align="center">
 <img src="./banner.svg" width="100%" alt="Banner de Fernando Rodenas" />
-
-  <p>
-    <a href="https://www.linkedin.com/in/fernando-r%C3%B3denas-tapia" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-Fernando_Rodenas-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    </a>
-    <a href="mailto:fernandorodenastapia@gmail.com">
-      <img src="https://img.shields.io/badge/Email-fernandorodenastapia%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-    </a>
-    <a href="https://github.com/nandorodenas" target="_blank">
-      <img src="https://img.shields.io/badge/GitHub-nandorodenas-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-    </a>
-  </p>
 </div>
 
 # Hola, soy Fernando Rodenas 👋
