@@ -40,6 +40,3 @@ Busco seguir creciendo en el área de **desarrollo backend, bases de datos e ing
 
 ---
 
-### 📊 Estadísticas
-
-![Estadísticas de GitHub](https://github-readme-stats.vercel.app/api?username=TU_USUARIO&show_icons=true&theme=radical&hide_border=true)
