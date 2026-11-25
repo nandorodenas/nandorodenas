@@ -1,3 +1,19 @@
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:1d4ed8&height=210&section=header&text=Fernando%20Rodenas&fontSize=46&fontColor=ffffff&fontAlignY=38&desc=Desarrollador%20Web%20(DAW)%20%7C%20Backend%20%26%20Bases%20de%20Datos%20%7C%20M%C3%A1laga&descSize=16&descAlignY=60&descColor=e2e8f0" width="100%" alt="Banner de Fernando Rodenas" />
+
+  <p>
+    <a href="https://www.linkedin.com/in/fernando-r%C3%B3denas-tapia" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-Fernando_Rodenas-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    <a href="mailto:fernandorodenastapia@gmail.com">
+      <img src="https://img.shields.io/badge/Email-fernandorodenastapia%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+    <a href="https://github.com/nandorodenas" target="_blank">
+      <img src="https://img.shields.io/badge/GitHub-nandorodenas-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    </a>
+  </p>
+</div>
+
 # Hola, soy Fernando Rodenas 👋
 
 Estudiante de 2º de **Desarrollo de Aplicaciones Web (DAW)** en MEDAC (Málaga). Me apasiona el desarrollo backend, el diseño y optimización de bases de datos y la creación de proyectos web reales aplicados al comercio electrónico y la automatización.
