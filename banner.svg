@@ -1,15 +1,115 @@
-<svg width="100%" viewBox="0 0 1200 250" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0f172a" />
-      <stop offset="100%" stop-color="#1d4ed8" />
+    
+    <linearGradient id="bgMain" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="55%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#111c38" />
+    </linearGradient>
+
+    
+    <radialGradient id="glowBlue" cx="80%" cy="25%" r="55%">
+      <stop offset="0%" stop-color="#2563eb" stop-opacity="0.32" />
+      <stop offset="100%" stop-color="#090d16" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glowCyan" cx="15%" cy="85%" r="45%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#090d16" stop-opacity="0" />
+    </radialGradient>
+
+    
+    <pattern id="techGrid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#38bdf8" stroke-opacity="0.06" stroke-width="1" />
+    </pattern>
+
+    
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#60a5fa" />
     </linearGradient>
   </defs>
-  <rect width="1200" height="250" rx="16" fill="url(#bgGrad)" />
-  <text x="600" y="112" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, Helvetica, Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff" text-anchor="middle">
+
+  
+  <rect width="1200" height="300" rx="18" fill="url(#bgMain)" />
+  <rect width="1200" height="300" rx="18" fill="url(#techGrid)" />
+  <rect width="1200" height="300" rx="18" fill="url(#glowBlue)" />
+  <rect width="1200" height="300" rx="18" fill="url(#glowCyan)" />
+  <rect x="1" y="1" width="1198" height="298" rx="17" fill="none" stroke="#1e293b" stroke-width="1.5" />
+
+  
+  
+  <rect x="56" y="46" width="318" height="30" rx="15" fill="#0f2942" stroke="#1d4ed8" stroke-width="1" />
+  <circle cx="74" cy="61" r="5" fill="#22c55e" />
+  <text x="88" y="66" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="13" font-weight="600" fill="#93c5fd">
+    Disponible para prácticas DAW · Málaga
+  </text>
+
+  
+  <text x="56" y="132" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="52" font-weight="800" fill="#ffffff" letter-spacing="-0.5">
     Fernando Rodenas
   </text>
-  <text x="600" y="162" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#e2e8f0" text-anchor="middle">
-    Desarrollador Web (DAW) · Backend &amp; Bases de Datos · Málaga
+
+  
+  <text x="56" y="170" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="20" font-weight="500" fill="url(#accentGrad)">
+    Desarrollador Web (DAW) · Backend &amp; Bases de Datos
   </text>
+
+  
+  <text x="56" y="204" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="15" fill="#94a3b8">
+    Arquitectura de servidor, modelado SQL y soluciones web para e-commerce.
+  </text>
+
+  
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="600">
+    <rect x="56" y="228" width="62" height="26" rx="6" fill="#1e293b" stroke="#334155" />
+    <text x="87" y="245" fill="#f59e0b" text-anchor="middle">Java</text>
+
+    <rect x="128" y="228" width="56" height="26" rx="6" fill="#1e293b" stroke="#334155" />
+    <text x="156" y="245" fill="#a78bfa" text-anchor="middle">PHP</text>
+
+    <rect x="194" y="228" width="96" height="26" rx="6" fill="#1e293b" stroke="#334155" />
+    <text x="242" y="245" fill="#38bdf8" text-anchor="middle">MySQL/Oracle</text>
+
+    <rect x="300" y="228" width="92" height="26" rx="6" fill="#1e293b" stroke="#334155" />
+    <text x="346" y="245" fill="#facc15" text-anchor="middle">JavaScript</text>
+  </g>
+
+  
+  <g transform="translate(715, 38)">
+    
+    <rect width="430" height="224" rx="12" fill="#0b1120" stroke="#1e293b" stroke-width="1.5" />
+    
+    <path d="M 0 12 Q 0 0 12 0 L 418 0 Q 430 0 430 12 L 430 32 L 0 32 Z" fill="#161f33" />
+    <circle cx="18" cy="16" r="5" fill="#ef4444" />
+    <circle cx="36" cy="16" r="5" fill="#f59e0b" />
+    <circle cx="54" cy="16" r="5" fill="#22c55e" />
+    <text x="215" y="20" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#64748b" text-anchor="middle">
+      fernando.config.json
+    </text>
+
+    
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13">
+      <text x="20" y="58" fill="#64748b">1</text>
+      <text x="42" y="58" fill="#e2e8f0">{</text>
+
+      <text x="20" y="82" fill="#64748b">2</text>
+      <text x="58" y="82" fill="#38bdf8">"role"</text><text x="108" y="82" fill="#e2e8f0">: </text><text x="122" y="82" fill="#a3e635">"Full-Stack DAW Student"</text><text x="315" y="82" fill="#e2e8f0">,</text>
+
+      <text x="20" y="106" fill="#64748b">3</text>
+      <text x="58" y="106" fill="#38bdf8">"focus"</text><text x="116" y="106" fill="#e2e8f0">: [</text><text x="138" y="106" fill="#fbbf24">"Backend"</text><text x="210" y="106" fill="#e2e8f0">, </text><text x="224" y="106" fill="#fbbf24">"Databases"</text><text x="312" y="106" fill="#e2e8f0">],</text>
+
+      <text x="20" y="130" fill="#64748b">4</text>
+      <text x="58" y="130" fill="#38bdf8">"database"</text><text x="140" y="130" fill="#e2e8f0">: [</text><text x="162" y="130" fill="#a3e635">"MySQL"</text><text x="218" y="130" fill="#e2e8f0">, </text><text x="232" y="130" fill="#a3e635">"Oracle PL/SQL"</text><text x="352" y="130" fill="#e2e8f0">],</text>
+
+      <text x="20" y="154" fill="#64748b">5</text>
+      <text x="58" y="154" fill="#38bdf8">"location"</text><text x="140" y="154" fill="#e2e8f0">: </text><text x="154" y="154" fill="#a3e635">"Málaga, ES"</text><text x="252" y="154" fill="#e2e8f0">,</text>
+
+      <text x="20" y="178" fill="#64748b">6</text>
+      <text x="58" y="178" fill="#38bdf8">"openToWork"</text><text x="156" y="178" fill="#e2e8f0">: </text><text x="170" y="178" fill="#f472b6">true</text>
+
+      <text x="20" y="202" fill="#64748b">7</text>
+      <text x="42" y="202" fill="#e2e8f0">}</text>
+    </g>
+  </g>
 </svg>
