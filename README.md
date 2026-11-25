@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./banner.svg" width="100%" alt="Banner de Fernando Rodenas" />
+<img src="./banner.svg?v=2" width="100%" alt="Banner de Fernando Rodenas" />
 </div>
 
 # Hola, soy Fernando Rodenas 👋
