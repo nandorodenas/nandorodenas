@@ -1,0 +1,15 @@
+<svg width="100%" viewBox="0 0 1200 250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="250" rx="16" fill="url(#bgGrad)" />
+  <text x="600" y="112" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, Helvetica, Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff" text-anchor="middle">
+    Fernando Rodenas
+  </text>
+  <text x="600" y="162" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#e2e8f0" text-anchor="middle">
+    Desarrollador Web (DAW) · Backend &amp; Bases de Datos · Málaga
+  </text>
+</svg>
